@@ -1,0 +1,13 @@
+// header
+.heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 9;
+    padding: 30px 0;
+    & .navbar {
+        &-logo {}
+    }
+}
